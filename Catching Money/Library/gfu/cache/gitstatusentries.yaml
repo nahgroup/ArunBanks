@@ -13,42 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-10-23T00:41:42.444+01:00
+  lastUpdatedAtString: 2020-10-23T00:42:09.109+01:00
   initializedAtString: 2020-10-23T00:35:24.854+01:00
   entries:
-  - path: Catching Money\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
+  - path: Catching Money\Library\EditorInstance.json
+    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Catching Money\Library\EditorInstance.json
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 5
-    workTreeStatus: 0
-  - path: Catching Money\Library\EditorInstance.json
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Catching Money\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Catching Money\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Catching Money\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -56,8 +32,8 @@ MonoBehaviour:
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Catching Money\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
@@ -70,138 +46,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Catching Money\Library\StateCache\Hierarchy\5dba03-mainStage.json
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\StateCache\Hierarchy\5dba03-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\5dba03-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Catching Money\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\Packages\manifest.json
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Packages\manifest.json
-    projectPath: Packages\manifest.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\AudioManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\AudioManager.asset
-    projectPath: ProjectSettings\AudioManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\ClusterInputManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ClusterInputManager.asset
-    projectPath: ProjectSettings\ClusterInputManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\DynamicsManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\DynamicsManager.asset
-    projectPath: ProjectSettings\DynamicsManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\EditorSettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\EditorSettings.asset
-    projectPath: ProjectSettings\EditorSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\GraphicsSettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\GraphicsSettings.asset
-    projectPath: ProjectSettings\GraphicsSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\InputManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\InputManager.asset
-    projectPath: ProjectSettings\InputManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\NavMeshAreas.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\NavMeshAreas.asset
-    projectPath: ProjectSettings\NavMeshAreas.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\NetworkManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\NetworkManager.asset
-    projectPath: ProjectSettings\NetworkManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\Physics2DSettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\Physics2DSettings.asset
-    projectPath: ProjectSettings\Physics2DSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\PresetManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\PresetManager.asset
-    projectPath: ProjectSettings\PresetManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\ProjectSettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\ProjectVersion.txt
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ProjectVersion.txt
-    projectPath: ProjectSettings\ProjectVersion.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\TagManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\TimeManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\TimeManager.asset
-    projectPath: ProjectSettings\TimeManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\VFXManager.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\VFXManager.asset
-    projectPath: ProjectSettings\VFXManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Catching Money\ProjectSettings\XRSettings.asset
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\XRSettings.asset
-    projectPath: ProjectSettings\XRSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Catching Money\Temp\UnityLockfile
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
