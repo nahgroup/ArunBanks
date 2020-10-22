@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-10-23T00:42:09.109+01:00
+  lastUpdatedAtString: 2020-10-23T00:42:50.819+01:00
   initializedAtString: 2020-10-23T00:35:24.854+01:00
   entries:
-  - path: Catching Money\Library\EditorInstance.json
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Catching Money\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Catching Money\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Catching Money\Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -40,15 +40,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Catching Money\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Catching Money\Temp\UnityLockfile
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Catching Money\Temp\UnityTempFile-58deb3d3927698240b99d975361c9319
+    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-58deb3d3927698240b99d975361c9319
+    projectPath: Temp\UnityTempFile-58deb3d3927698240b99d975361c9319
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
