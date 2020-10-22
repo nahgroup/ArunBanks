@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-10-23T00:29:32.045+01:00
+  initializedAtString: 2020-10-23T00:22:46.992+01:00
+  log:
+  - commitID: 528e23932047a49acd8ee827adbf5e2bf2acc41c
+    mergeA: 
+    mergeB: 
+    authorName: Dan
+    authorEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitName: Dan
+    summary: Adding Unity
+    description: Please Work
+    timeString: 2020-10-23T00:29:27.000+01:00
+    commitTimeString: 2020-10-23T00:29:27.000+01:00
+    changes:
+    - path: Catching Money\Assets\Plugins.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Scenes.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Catching Money\Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 65b186acc1df6bf1c11056356a94d0fc9d71566d
+    mergeA: 
+    mergeB: 
+    authorName: Dan
+    authorEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitName: Dan
+    summary: Unity Added
+    description: Look, I've added Unity to the Project!
+    timeString: 2020-10-23T00:22:17.000+01:00
+    commitTimeString: 2020-10-23T00:22:17.000+01:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: dc5b69b4f0a491d1235328a7a34fa5cb49c5f35b
+    mergeA: 6a6759b62b1bc419198e0436dcb7c8b638a7dc2e
+    mergeB: cf7c67167b7e6c6d69a76cb8c5923468f0c954b6
+    authorName: Will R
+    authorEmail: 15824869+Willumz@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: 'Merge pull request #2 from Not-A-Hacking-Group/will'
+    description: Basic webapp
+    timeString: 2020-10-22T23:53:37.000+01:00
+    commitTimeString: 2020-10-22T23:53:37.000+01:00
+    changes: []
+  - commitID: cf7c67167b7e6c6d69a76cb8c5923468f0c954b6
+    mergeA: 
+    mergeB: 
+    authorName: William
+    authorEmail: 15824869+Willumz@users.noreply.github.com
+    commitEmail: 15824869+Willumz@users.noreply.github.com
+    commitName: William
+    summary: Basic webapp
+    description: 
+    timeString: 2020-10-22T23:50:59.000+01:00
+    commitTimeString: 2020-10-22T23:50:59.000+01:00
+    changes:
+    - path: index.js
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\index.js
+      projectPath: ..\index.js
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: package-lock.json
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\package-lock.json
+      projectPath: ..\package-lock.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: package.json
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\package.json
+      projectPath: ..\package.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: routes.js
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\routes.js
+      projectPath: ..\routes.js
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 6a6759b62b1bc419198e0436dcb7c8b638a7dc2e
+    mergeA: 
+    mergeB: 
+    authorName: Will R
+    authorEmail: 15824869+Willumz@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: 
+    timeString: 2020-10-22T22:44:57.000+01:00
+    commitTimeString: 2020-10-22T22:44:57.000+01:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
