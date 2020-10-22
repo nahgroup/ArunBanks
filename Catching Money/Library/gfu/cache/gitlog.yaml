@@ -13,9 +13,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-10-23T00:42:50.405+01:00
+  lastUpdatedAtString: 2020-10-23T00:47:37.600+01:00
   initializedAtString: 2020-10-23T00:36:26.245+01:00
   log:
+  - commitID: 99dc2e90813aee726f0e05082a9020c0a1b59912
+    mergeA: 
+    mergeB: 
+    authorName: Dan
+    authorEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitName: Dan
+    summary: Ignore some stuff
+    description: 
+    timeString: 2020-10-23T00:47:08.000+01:00
+    commitTimeString: 2020-10-23T00:47:08.000+01:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fb43c98bdad27789c87f39a1995bae38b73cabf8
+    mergeA: 
+    mergeB: 
+    authorName: Dan
+    authorEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitEmail: 27007457+DanielJennings2001@users.noreply.github.com
+    commitName: Dan
+    summary: ok think it working now
+    description: 
+    timeString: 2020-10-23T00:43:16.000+01:00
+    commitTimeString: 2020-10-23T00:43:16.000+01:00
+    changes:
+    - path: Catching Money\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Catching Money\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Catching Money\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Catching Money\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 639f42eda8cc955e62686dc94fc9d47e8da98035
     mergeA: 
     mergeB: 

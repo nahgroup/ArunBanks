@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-10-23T00:42:47.799+01:00
+  lastUpdatedAtString: 2020-10-23T00:47:30.047+01:00
   initializedAtString: 2020-10-23T00:36:24.874+01:00
   localBranches:
   - name: dan
@@ -21,6 +21,8 @@ MonoBehaviour:
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/arun
+    tracking: '[None]'
   - name: origin/dan
     tracking: '[None]'
   - name: origin/germain
@@ -59,6 +61,7 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - arun
       - dan
       - germain
       - HEAD
@@ -66,6 +69,11 @@ MonoBehaviour:
       - will
     subKeyValues:
     - Values:
+      - name: arun
+        remote:
+          name: origin
+          url: https://github.com/Not-A-Hacking-Group/ArunBanks.git
+        trackingBranch: 
       - name: dan
         remote:
           name: origin
