@@ -1,0 +1,23 @@
+{
+  "name": "arunbanks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Not-A-Hacking-Group/ArunBanks.git"
+  },
+  "author": "Not A Hacking Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Not-A-Hacking-Group/ArunBanks/issues"
+  },
+  "homepage": "https://github.com/Not-A-Hacking-Group/ArunBanks#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1"
+  }
+}
