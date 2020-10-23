@@ -13,6 +13,8 @@ app.use(cookieParser());
 app.set("view engine", "ejs");
 
 
+app.use(express.static("static"));
+
 // Routes
 app.use("/", require("./routes.js"));
 
