@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
         {
             MovePlayer();
             //Animation
-            Debug.Log(Player_Change.x);
             Game_Animator.SetFloat("moveX", Player_Change.x);
             Game_Animator.SetFloat("moveY", 0);
             //Am I moving?
@@ -46,7 +45,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        InteractionHappening = true;
+        if (!(collision.gameObject.name.Contains("Coin") || collision.gameObject.name.Contains("Note")))
+        {
+            InteractionHappening = true;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
