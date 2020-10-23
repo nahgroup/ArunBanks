@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: 2cffc3b61756fde4ebf02362ded6cc9c
 TextureImporter:
+<<<<<<< HEAD
   internalIDToNameTable:
   - first:
       213: 8811407705466425793
@@ -239,6 +240,9 @@ TextureImporter:
   - first:
       213: 1953270087111884479
     second: Monkey Character_78
+=======
+  internalIDToNameTable: []
+>>>>>>> e94936e963677d76cd71713df08e05ef8722ce99
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -268,7 +272,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 0
+=======
+    filterMode: -1
+>>>>>>> e94936e963677d76cd71713df08e05ef8722ce99
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -277,12 +285,20 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> e94936e963677d76cd71713df08e05ef8722ce99
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 16
+=======
+  spritePixelsToUnits: 100
+>>>>>>> e94936e963677d76cd71713df08e05ef8722ce99
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -307,6 +323,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -1981,6 +1998,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+>>>>>>> e94936e963677d76cd71713df08e05ef8722ce99
     outline: []
     physicsShape: []
     bones: []
