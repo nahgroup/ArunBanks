@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 3.2
-    y: 52
+    x: 7.2000003
+    y: 50.4
     width: 1521.6
     height: 766.4
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 272}
   m_MaxSize: {x: 14006, y: 10022}
   vertical: 0
-  controlID: 127
+  controlID: 136
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,7 +96,7 @@ MonoBehaviour:
     y: 0
     width: 1522
     height: 767
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 510, y: 494}
   m_MaxSize: {x: 18010, y: 14044}
   vertical: 0
-  controlID: 53
+  controlID: 171
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 1
-  controlID: 54
+  controlID: 16
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 55
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,8 +261,8 @@ MonoBehaviour:
     y: 0
     width: 1013
     height: 422
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -290,8 +290,8 @@ MonoBehaviour:
     y: 0
     width: 855
     height: 295
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -317,15 +317,15 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 717
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 23}
   - {fileID: 24}
   - {fileID: 14}
   m_Selected: 2
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,8 +346,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1246.4
-    y: 82.4
+    x: 1250.4
+    y: 80.8
     width: 277
     height: 698
   m_ViewDataDictionary: {fileID: 0}
@@ -593,8 +593,8 @@ MonoBehaviour:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    commitBody: Unity with Git Setup part 3
-    commitMessage: Unity with Git Setup part 3
+    commitBody: 
+    commitMessage: 
     currentBranch: '[dan]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
@@ -605,13 +605,10 @@ MonoBehaviour:
         keys:
         - Catching Money
         - Catching Money\Library
-        - Catching Money\Library\gfu
-        - Catching Money\Library\gfu\cache
-        - Catching Money\obj
-        - Catching Money\obj\Debug
-        - Catching Money\Packages
-        - Catching Money\ProjectSettings
+        - Catching Money\Library\StateCache
+        - Catching Money\Library\StateCache\Hierarchy
         - Catching Money\Temp
+        - Catching Money\Temp\__Backupscenes
         values:
         - path: Catching Money
           label: Catching Money
@@ -636,7 +633,7 @@ MonoBehaviour:
           level: 1
           isFolder: 1
           isContainer: 0
-          isCollapsed: 1
+          isCollapsed: 0
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
@@ -649,13 +646,13 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Catching Money\Library\gfu
-          label: gfu
+        - path: Catching Money\Library\StateCache
+          label: StateCache
           level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
-          isHidden: 1
+          isHidden: 0
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -667,84 +664,12 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Catching Money\Library\gfu\cache
-          label: cache
+        - path: Catching Money\Library\StateCache\Hierarchy
+          label: Hierarchy
           level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Catching Money\obj
-          label: obj
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Catching Money\obj\Debug
-          label: Debug
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Catching Money\Packages
-          label: Packages
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Catching Money\ProjectSettings
-          label: ProjectSettings
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
@@ -760,6 +685,24 @@ MonoBehaviour:
         - path: Catching Money\Temp
           label: Temp
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Catching Money\Temp\__Backupscenes
+          label: __Backupscenes
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -826,7 +769,7 @@ MonoBehaviour:
         level: 1
         isFolder: 1
         isContainer: 0
-        isCollapsed: 1
+        isCollapsed: 0
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
@@ -839,13 +782,67 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Catching Money\Library\gfu
-        label: gfu
+      - path: Catching Money\Library\CurrentLayout-default.dwlt
+        label: CurrentLayout-default.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Library\CurrentLayout-default.dwlt
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\CurrentLayout-default.dwlt
+          projectPath: Library\CurrentLayout-default.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Catching Money\Library\EditorInstance.json
+        label: EditorInstance.json
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Library\EditorInstance.json
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorInstance.json
+          projectPath: Library\EditorInstance.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Catching Money\Library\EditorUserBuildSettings.asset
+        label: EditorUserBuildSettings.asset
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Library\EditorUserBuildSettings.asset
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Catching Money\Library\StateCache
+        label: StateCache
         level: 2
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
-        isHidden: 1
+        isHidden: 0
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
@@ -857,120 +854,12 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Catching Money\Library\gfu\cache
-        label: cache
+      - path: Catching Money\Library\StateCache\Hierarchy
+        label: Hierarchy
         level: 3
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Catching Money\Library\gfu\cache\branches.yaml
-        label: branches.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\Library\gfu\cache\branches.yaml
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\branches.yaml
-          projectPath: Library\gfu\cache\branches.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Catching Money\Library\gfu\cache\gitlocks.yaml
-        label: gitlocks.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\Library\gfu\cache\gitlocks.yaml
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlocks.yaml
-          projectPath: Library\gfu\cache\gitlocks.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Catching Money\Library\gfu\cache\gitlog.yaml
-        label: gitlog.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\Library\gfu\cache\gitlog.yaml
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlog.yaml
-          projectPath: Library\gfu\cache\gitlog.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Catching Money\Library\gfu\cache\gitstatusentries.yaml
-        label: gitstatusentries.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\Library\gfu\cache\gitstatusentries.yaml
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitstatusentries.yaml
-          projectPath: Library\gfu\cache\gitstatusentries.yaml
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\Library\gfu\cache\gittrackingstatus.yaml
-        label: gittrackingstatus.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\Library\gfu\cache\gittrackingstatus.yaml
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gittrackingstatus.yaml
-          projectPath: Library\gfu\cache\gittrackingstatus.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Catching Money\obj
-        label: obj
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 1
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
@@ -983,438 +872,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Catching Money\obj\Debug
-        label: Debug
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Catching Money\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        level: 3
+      - path: Catching Money\Library\StateCache\Hierarchy\5dba03-mainStage.json
+        label: 5dba03-mainStage.json
+        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\Packages
-        label: Packages
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 1
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
+          path: Catching Money\Library\StateCache\Hierarchy\5dba03-mainStage.json
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\StateCache\Hierarchy\5dba03-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\5dba03-mainStage.json
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: Catching Money\Packages\manifest.json
-        label: manifest.json
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\Packages\manifest.json
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings
-        label: ProjectSettings
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 1
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Catching Money\ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\InputManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\NetworkManager.asset
-        label: NetworkManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\NetworkManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\NetworkManager.asset
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\TagManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Catching Money\ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          workTreeStatus: 3
       - path: Catching Money\Temp
         label: Temp
         level: 1
@@ -1433,31 +908,12 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Catching Money\Temp\UnityLockfile
-        label: UnityLockfile
+      - path: Catching Money\Temp\__Backupscenes
+        label: __Backupscenes
         level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Catching Money\Temp\UnityLockfile
-          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityLockfile
-          projectPath: Temp\UnityLockfile
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      selectedNode:
-        path: Catching Money\Packages
-        label: Packages
-        level: 1
         isFolder: 1
         isContainer: 0
-        isCollapsed: 1
+        isCollapsed: 0
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
@@ -1470,178 +926,1859 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Catching Money\Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\__Backupscenes\0.backup
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\__Backupscenes\0.backup
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-02be97e0e81e16344a5c64d656db8a34
+        label: UnityTempFile-02be97e0e81e16344a5c64d656db8a34
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-02be97e0e81e16344a5c64d656db8a34
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-02be97e0e81e16344a5c64d656db8a34
+          projectPath: Temp\UnityTempFile-02be97e0e81e16344a5c64d656db8a34
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-09542537e39b6674d99de7cbaca66d5c
+        label: UnityTempFile-09542537e39b6674d99de7cbaca66d5c
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-09542537e39b6674d99de7cbaca66d5c
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-09542537e39b6674d99de7cbaca66d5c
+          projectPath: Temp\UnityTempFile-09542537e39b6674d99de7cbaca66d5c
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
+        label: UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
+          projectPath: Temp\UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-1e239d32030bd514ba81bc9db2635142
+        label: UnityTempFile-1e239d32030bd514ba81bc9db2635142
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-1e239d32030bd514ba81bc9db2635142
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-1e239d32030bd514ba81bc9db2635142
+          projectPath: Temp\UnityTempFile-1e239d32030bd514ba81bc9db2635142
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
+        label: UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
+          projectPath: Temp\UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
+        label: UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
+          projectPath: Temp\UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-2a27384e2e607a0439bcff7086c2493d
+        label: UnityTempFile-2a27384e2e607a0439bcff7086c2493d
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-2a27384e2e607a0439bcff7086c2493d
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-2a27384e2e607a0439bcff7086c2493d
+          projectPath: Temp\UnityTempFile-2a27384e2e607a0439bcff7086c2493d
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
+        label: UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
+          projectPath: Temp\UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
+        label: UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
+          projectPath: Temp\UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-33245b88302693f45a2e666ce0a006a1
+        label: UnityTempFile-33245b88302693f45a2e666ce0a006a1
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-33245b88302693f45a2e666ce0a006a1
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-33245b88302693f45a2e666ce0a006a1
+          projectPath: Temp\UnityTempFile-33245b88302693f45a2e666ce0a006a1
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-3430ad9bf15d201479145265a3843def
+        label: UnityTempFile-3430ad9bf15d201479145265a3843def
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-3430ad9bf15d201479145265a3843def
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3430ad9bf15d201479145265a3843def
+          projectPath: Temp\UnityTempFile-3430ad9bf15d201479145265a3843def
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
+        label: UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
+          projectPath: Temp\UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-3723a72a187b8b2408d0efde39d12bce
+        label: UnityTempFile-3723a72a187b8b2408d0efde39d12bce
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-3723a72a187b8b2408d0efde39d12bce
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3723a72a187b8b2408d0efde39d12bce
+          projectPath: Temp\UnityTempFile-3723a72a187b8b2408d0efde39d12bce
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
+        label: UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
+          projectPath: Temp\UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
+        label: UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
+          projectPath: Temp\UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-38e0bef77f7505c4d8880d333d768e14
+        label: UnityTempFile-38e0bef77f7505c4d8880d333d768e14
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-38e0bef77f7505c4d8880d333d768e14
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-38e0bef77f7505c4d8880d333d768e14
+          projectPath: Temp\UnityTempFile-38e0bef77f7505c4d8880d333d768e14
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-3b2dadd05e1f592489671721a042dd6c
+        label: UnityTempFile-3b2dadd05e1f592489671721a042dd6c
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-3b2dadd05e1f592489671721a042dd6c
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3b2dadd05e1f592489671721a042dd6c
+          projectPath: Temp\UnityTempFile-3b2dadd05e1f592489671721a042dd6c
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-3e45a0e0907a5d54499e7d517e185065
+        label: UnityTempFile-3e45a0e0907a5d54499e7d517e185065
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-3e45a0e0907a5d54499e7d517e185065
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3e45a0e0907a5d54499e7d517e185065
+          projectPath: Temp\UnityTempFile-3e45a0e0907a5d54499e7d517e185065
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-4226212685d56c944b211e2a7e033318
+        label: UnityTempFile-4226212685d56c944b211e2a7e033318
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-4226212685d56c944b211e2a7e033318
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-4226212685d56c944b211e2a7e033318
+          projectPath: Temp\UnityTempFile-4226212685d56c944b211e2a7e033318
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-45a1c0439515f654d906c223e4c65094
+        label: UnityTempFile-45a1c0439515f654d906c223e4c65094
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-45a1c0439515f654d906c223e4c65094
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-45a1c0439515f654d906c223e4c65094
+          projectPath: Temp\UnityTempFile-45a1c0439515f654d906c223e4c65094
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-471d798b1ee391542b38c69d82f8a266
+        label: UnityTempFile-471d798b1ee391542b38c69d82f8a266
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-471d798b1ee391542b38c69d82f8a266
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-471d798b1ee391542b38c69d82f8a266
+          projectPath: Temp\UnityTempFile-471d798b1ee391542b38c69d82f8a266
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+        label: UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+          projectPath: Temp\UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+        label: UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+          projectPath: Temp\UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-512e19d2be7261e469a741de54a6c050
+        label: UnityTempFile-512e19d2be7261e469a741de54a6c050
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-512e19d2be7261e469a741de54a6c050
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-512e19d2be7261e469a741de54a6c050
+          projectPath: Temp\UnityTempFile-512e19d2be7261e469a741de54a6c050
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+        label: UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+          projectPath: Temp\UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-67dfe6917c228c94d866071cc930d465
+        label: UnityTempFile-67dfe6917c228c94d866071cc930d465
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-67dfe6917c228c94d866071cc930d465
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-67dfe6917c228c94d866071cc930d465
+          projectPath: Temp\UnityTempFile-67dfe6917c228c94d866071cc930d465
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+        label: UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+          projectPath: Temp\UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+        label: UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+          projectPath: Temp\UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+        label: UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+          projectPath: Temp\UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+        label: UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+          projectPath: Temp\UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+        label: UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+          projectPath: Temp\UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+        label: UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+          projectPath: Temp\UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+        label: UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+          projectPath: Temp\UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+        label: UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+          projectPath: Temp\UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+        label: UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+          projectPath: Temp\UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-97aa6941a9588224d85bac558731fdf6
+        label: UnityTempFile-97aa6941a9588224d85bac558731fdf6
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-97aa6941a9588224d85bac558731fdf6
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-97aa6941a9588224d85bac558731fdf6
+          projectPath: Temp\UnityTempFile-97aa6941a9588224d85bac558731fdf6
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+        label: UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+          projectPath: Temp\UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+        label: UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+          projectPath: Temp\UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+        label: UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+          projectPath: Temp\UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+        label: UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+          projectPath: Temp\UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+        label: UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+          projectPath: Temp\UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+        label: UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+          projectPath: Temp\UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-a704770202e4cf847abd9cdeae11d891
+        label: UnityTempFile-a704770202e4cf847abd9cdeae11d891
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-a704770202e4cf847abd9cdeae11d891
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a704770202e4cf847abd9cdeae11d891
+          projectPath: Temp\UnityTempFile-a704770202e4cf847abd9cdeae11d891
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+        label: UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+          projectPath: Temp\UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-b060b129cb0dc014184db556240074c3
+        label: UnityTempFile-b060b129cb0dc014184db556240074c3
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-b060b129cb0dc014184db556240074c3
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b060b129cb0dc014184db556240074c3
+          projectPath: Temp\UnityTempFile-b060b129cb0dc014184db556240074c3
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+        label: UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+          projectPath: Temp\UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-b542d93c116a027479a7e6477e60fd41
+        label: UnityTempFile-b542d93c116a027479a7e6477e60fd41
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-b542d93c116a027479a7e6477e60fd41
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b542d93c116a027479a7e6477e60fd41
+          projectPath: Temp\UnityTempFile-b542d93c116a027479a7e6477e60fd41
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+        label: UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+          projectPath: Temp\UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-b79b82de805e0fb46912704474ccbdae
+        label: UnityTempFile-b79b82de805e0fb46912704474ccbdae
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-b79b82de805e0fb46912704474ccbdae
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b79b82de805e0fb46912704474ccbdae
+          projectPath: Temp\UnityTempFile-b79b82de805e0fb46912704474ccbdae
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+        label: UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+          projectPath: Temp\UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+        label: UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+          projectPath: Temp\UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+        label: UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+          projectPath: Temp\UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+        label: UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+          projectPath: Temp\UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-cfd8e0899731fac4799512f1aca45397
+        label: UnityTempFile-cfd8e0899731fac4799512f1aca45397
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-cfd8e0899731fac4799512f1aca45397
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-cfd8e0899731fac4799512f1aca45397
+          projectPath: Temp\UnityTempFile-cfd8e0899731fac4799512f1aca45397
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-d32605382b861f540b77df30309c21bb
+        label: UnityTempFile-d32605382b861f540b77df30309c21bb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-d32605382b861f540b77df30309c21bb
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-d32605382b861f540b77df30309c21bb
+          projectPath: Temp\UnityTempFile-d32605382b861f540b77df30309c21bb
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+        label: UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+          projectPath: Temp\UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-d770821f1b563e945ab76a87b962ec56
+        label: UnityTempFile-d770821f1b563e945ab76a87b962ec56
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-d770821f1b563e945ab76a87b962ec56
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-d770821f1b563e945ab76a87b962ec56
+          projectPath: Temp\UnityTempFile-d770821f1b563e945ab76a87b962ec56
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+        label: UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+          projectPath: Temp\UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-e0eeba179746aac468c71e9d595748ce
+        label: UnityTempFile-e0eeba179746aac468c71e9d595748ce
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-e0eeba179746aac468c71e9d595748ce
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e0eeba179746aac468c71e9d595748ce
+          projectPath: Temp\UnityTempFile-e0eeba179746aac468c71e9d595748ce
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-e1aeeb493670924489e85fab03219bc9
+        label: UnityTempFile-e1aeeb493670924489e85fab03219bc9
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-e1aeeb493670924489e85fab03219bc9
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e1aeeb493670924489e85fab03219bc9
+          projectPath: Temp\UnityTempFile-e1aeeb493670924489e85fab03219bc9
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+        label: UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+          projectPath: Temp\UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+        label: UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+          projectPath: Temp\UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-ea18470387f593247849553d34c00e4a
+        label: UnityTempFile-ea18470387f593247849553d34c00e4a
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-ea18470387f593247849553d34c00e4a
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ea18470387f593247849553d34c00e4a
+          projectPath: Temp\UnityTempFile-ea18470387f593247849553d34c00e4a
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+        label: UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+          projectPath: Temp\UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-ee3b1d38f984e644b963d62f19521937
+        label: UnityTempFile-ee3b1d38f984e644b963d62f19521937
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-ee3b1d38f984e644b963d62f19521937
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ee3b1d38f984e644b963d62f19521937
+          projectPath: Temp\UnityTempFile-ee3b1d38f984e644b963d62f19521937
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+        label: UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+          projectPath: Temp\UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+        label: UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+          projectPath: Temp\UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+        label: UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+          projectPath: Temp\UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+        label: UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+          projectPath: Temp\UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+        label: UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+          projectPath: Temp\UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-f78d652187f5e54438c0cba557315441
+        label: UnityTempFile-f78d652187f5e54438c0cba557315441
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-f78d652187f5e54438c0cba557315441
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f78d652187f5e54438c0cba557315441
+          projectPath: Temp\UnityTempFile-f78d652187f5e54438c0cba557315441
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+        label: UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+          projectPath: Temp\UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-fb37c210fde755244a14b7681bc11c97
+        label: UnityTempFile-fb37c210fde755244a14b7681bc11c97
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-fb37c210fde755244a14b7681bc11c97
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-fb37c210fde755244a14b7681bc11c97
+          projectPath: Temp\UnityTempFile-fb37c210fde755244a14b7681bc11c97
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Catching Money\Temp\UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+        label: UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Catching Money\Temp\UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+          fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+          projectPath: Temp\UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
     gitStatusEntries:
-    - path: Catching Money\Library\gfu\cache\branches.yaml
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\branches.yaml
-      projectPath: Library\gfu\cache\branches.yaml
+    - path: Catching Money\Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Catching Money\Library\gfu\cache\gitlocks.yaml
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlocks.yaml
-      projectPath: Library\gfu\cache\gitlocks.yaml
+    - path: Catching Money\Library\EditorInstance.json
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Catching Money\Library\gfu\cache\gitlog.yaml
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlog.yaml
-      projectPath: Library\gfu\cache\gitlog.yaml
+    - path: Catching Money\Library\EditorUserBuildSettings.asset
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Catching Money\Library\gfu\cache\gitstatusentries.yaml
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitstatusentries.yaml
-      projectPath: Library\gfu\cache\gitstatusentries.yaml
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\Library\gfu\cache\gittrackingstatus.yaml
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gittrackingstatus.yaml
-      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    - path: Catching Money\Library\StateCache\Hierarchy\5dba03-mainStage.json
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\StateCache\Hierarchy\5dba03-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\5dba03-mainStage.json
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Catching Money\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    - path: Catching Money\Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\Packages\manifest.json
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Packages\manifest.json
-      projectPath: Packages\manifest.json
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-02be97e0e81e16344a5c64d656db8a34
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-02be97e0e81e16344a5c64d656db8a34
+      projectPath: Temp\UnityTempFile-02be97e0e81e16344a5c64d656db8a34
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\AudioManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\AudioManager.asset
-      projectPath: ProjectSettings\AudioManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-09542537e39b6674d99de7cbaca66d5c
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-09542537e39b6674d99de7cbaca66d5c
+      projectPath: Temp\UnityTempFile-09542537e39b6674d99de7cbaca66d5c
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\ClusterInputManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ClusterInputManager.asset
-      projectPath: ProjectSettings\ClusterInputManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
+      projectPath: Temp\UnityTempFile-0aaa54e97b134d9489017b9396e4a12e
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\DynamicsManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\DynamicsManager.asset
-      projectPath: ProjectSettings\DynamicsManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-1e239d32030bd514ba81bc9db2635142
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-1e239d32030bd514ba81bc9db2635142
+      projectPath: Temp\UnityTempFile-1e239d32030bd514ba81bc9db2635142
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\EditorBuildSettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
+      projectPath: Temp\UnityTempFile-1fcbc9fe16b92e848881b03ada4315eb
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\EditorSettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\EditorSettings.asset
-      projectPath: ProjectSettings\EditorSettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
+      projectPath: Temp\UnityTempFile-265a76b2516c7dd4ba454a6f0e2dc906
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\GraphicsSettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-2a27384e2e607a0439bcff7086c2493d
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-2a27384e2e607a0439bcff7086c2493d
+      projectPath: Temp\UnityTempFile-2a27384e2e607a0439bcff7086c2493d
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\InputManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\InputManager.asset
-      projectPath: ProjectSettings\InputManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
+      projectPath: Temp\UnityTempFile-2b1c2b3e81346e0459643bfb21fb9610
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\NavMeshAreas.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\NavMeshAreas.asset
-      projectPath: ProjectSettings\NavMeshAreas.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
+      projectPath: Temp\UnityTempFile-2dd276c2c6e83d644a28a2323f39a84a
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\NetworkManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\NetworkManager.asset
-      projectPath: ProjectSettings\NetworkManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-33245b88302693f45a2e666ce0a006a1
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-33245b88302693f45a2e666ce0a006a1
+      projectPath: Temp\UnityTempFile-33245b88302693f45a2e666ce0a006a1
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\Physics2DSettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\Physics2DSettings.asset
-      projectPath: ProjectSettings\Physics2DSettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-3430ad9bf15d201479145265a3843def
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3430ad9bf15d201479145265a3843def
+      projectPath: Temp\UnityTempFile-3430ad9bf15d201479145265a3843def
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\PresetManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
+      projectPath: Temp\UnityTempFile-353f6caa9621f8b4b8b2d0cea1aea553
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\ProjectSettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-3723a72a187b8b2408d0efde39d12bce
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3723a72a187b8b2408d0efde39d12bce
+      projectPath: Temp\UnityTempFile-3723a72a187b8b2408d0efde39d12bce
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\ProjectVersion.txt
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
+      projectPath: Temp\UnityTempFile-37c9247f5e49bab4c8b7f0d7516fd73c
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\QualitySettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
+      projectPath: Temp\UnityTempFile-38d06c1e5a69bc347af57e3506ad2a26
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\TagManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-38e0bef77f7505c4d8880d333d768e14
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-38e0bef77f7505c4d8880d333d768e14
+      projectPath: Temp\UnityTempFile-38e0bef77f7505c4d8880d333d768e14
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\TimeManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\TimeManager.asset
-      projectPath: ProjectSettings\TimeManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-3b2dadd05e1f592489671721a042dd6c
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3b2dadd05e1f592489671721a042dd6c
+      projectPath: Temp\UnityTempFile-3b2dadd05e1f592489671721a042dd6c
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\UnityConnectSettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-3e45a0e0907a5d54499e7d517e185065
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-3e45a0e0907a5d54499e7d517e185065
+      projectPath: Temp\UnityTempFile-3e45a0e0907a5d54499e7d517e185065
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\VFXManager.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\VFXManager.asset
-      projectPath: ProjectSettings\VFXManager.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-4226212685d56c944b211e2a7e033318
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-4226212685d56c944b211e2a7e033318
+      projectPath: Temp\UnityTempFile-4226212685d56c944b211e2a7e033318
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\ProjectSettings\XRSettings.asset
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\ProjectSettings\XRSettings.asset
-      projectPath: ProjectSettings\XRSettings.asset
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-45a1c0439515f654d906c223e4c65094
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-45a1c0439515f654d906c223e4c65094
+      projectPath: Temp\UnityTempFile-45a1c0439515f654d906c223e4c65094
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Catching Money\Temp\UnityLockfile
-      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityLockfile
-      projectPath: Temp\UnityLockfile
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-471d798b1ee391542b38c69d82f8a266
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-471d798b1ee391542b38c69d82f8a266
+      projectPath: Temp\UnityTempFile-471d798b1ee391542b38c69d82f8a266
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 27 changed files
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+      projectPath: Temp\UnityTempFile-483d50fbcdfd3244d912b1c109e63dd1
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+      projectPath: Temp\UnityTempFile-49e08832e907e1c4c9710c4a4046145f
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-512e19d2be7261e469a741de54a6c050
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-512e19d2be7261e469a741de54a6c050
+      projectPath: Temp\UnityTempFile-512e19d2be7261e469a741de54a6c050
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+      projectPath: Temp\UnityTempFile-628c917b9a2eb33489d2d2dba6c0f6fa
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-67dfe6917c228c94d866071cc930d465
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-67dfe6917c228c94d866071cc930d465
+      projectPath: Temp\UnityTempFile-67dfe6917c228c94d866071cc930d465
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+      projectPath: Temp\UnityTempFile-78d5d4bd8e4acbd4cbbf905990e599cb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+      projectPath: Temp\UnityTempFile-79c9a07471034804bafa9405ad8aca2c
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+      projectPath: Temp\UnityTempFile-7a0709452d0d250438874ab6cf1b1556
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+      projectPath: Temp\UnityTempFile-86409a4f17111fe4ebdfa518bb23b744
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+      projectPath: Temp\UnityTempFile-8d110cac7358cf24c8fd6218661b4616
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+      projectPath: Temp\UnityTempFile-8d578fac3db13474a8942118b1fe62f5
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+      projectPath: Temp\UnityTempFile-91490f508cd5ced4196a81801bb8aac8
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+      projectPath: Temp\UnityTempFile-94e7be1994e6b854b803e5aa767adbaf
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+      projectPath: Temp\UnityTempFile-96798f2f55d33a249aa69575ace23cf0
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-97aa6941a9588224d85bac558731fdf6
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-97aa6941a9588224d85bac558731fdf6
+      projectPath: Temp\UnityTempFile-97aa6941a9588224d85bac558731fdf6
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+      projectPath: Temp\UnityTempFile-9ae2a5d82d4d3e34899d5cc11133bc21
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+      projectPath: Temp\UnityTempFile-9b1cf4c8d8c247543a9cc953ea20e286
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+      projectPath: Temp\UnityTempFile-9e2b89136dd26eb4aaddc03fed4e588e
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+      projectPath: Temp\UnityTempFile-a4ac3d25f07a35c40952f8fe41debd91
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+      projectPath: Temp\UnityTempFile-a4bb6757e65cf4b439337a5d8843b260
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+      projectPath: Temp\UnityTempFile-a52c45aa22320914da2980b24a5e55ba
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-a704770202e4cf847abd9cdeae11d891
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a704770202e4cf847abd9cdeae11d891
+      projectPath: Temp\UnityTempFile-a704770202e4cf847abd9cdeae11d891
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+      projectPath: Temp\UnityTempFile-a95b6f4d494373645a3d1a0ddd6b8a2e
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-b060b129cb0dc014184db556240074c3
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b060b129cb0dc014184db556240074c3
+      projectPath: Temp\UnityTempFile-b060b129cb0dc014184db556240074c3
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+      projectPath: Temp\UnityTempFile-b3d15814467f93c41b5e240c3bbbee06
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-b542d93c116a027479a7e6477e60fd41
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b542d93c116a027479a7e6477e60fd41
+      projectPath: Temp\UnityTempFile-b542d93c116a027479a7e6477e60fd41
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+      projectPath: Temp\UnityTempFile-b77236cad5bbd8d4bada00c3ed4c4605
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-b79b82de805e0fb46912704474ccbdae
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-b79b82de805e0fb46912704474ccbdae
+      projectPath: Temp\UnityTempFile-b79b82de805e0fb46912704474ccbdae
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+      projectPath: Temp\UnityTempFile-bcc2cbdee812d9444acfb7670c12ac20
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+      projectPath: Temp\UnityTempFile-bdd7455e453de28408a0155b670bfd5b
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+      projectPath: Temp\UnityTempFile-bf92e9741ae3d0442b7b355fcaf74d10
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+      projectPath: Temp\UnityTempFile-c3e563464202bd942a0f07e8e791b08f
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-cfd8e0899731fac4799512f1aca45397
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-cfd8e0899731fac4799512f1aca45397
+      projectPath: Temp\UnityTempFile-cfd8e0899731fac4799512f1aca45397
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-d32605382b861f540b77df30309c21bb
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-d32605382b861f540b77df30309c21bb
+      projectPath: Temp\UnityTempFile-d32605382b861f540b77df30309c21bb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+      projectPath: Temp\UnityTempFile-d67ad7a65fc31104e9bbdbe78498d690
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-d770821f1b563e945ab76a87b962ec56
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-d770821f1b563e945ab76a87b962ec56
+      projectPath: Temp\UnityTempFile-d770821f1b563e945ab76a87b962ec56
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+      projectPath: Temp\UnityTempFile-db8834b68390bd94da698eaaa5a4f335
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-e0eeba179746aac468c71e9d595748ce
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e0eeba179746aac468c71e9d595748ce
+      projectPath: Temp\UnityTempFile-e0eeba179746aac468c71e9d595748ce
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-e1aeeb493670924489e85fab03219bc9
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e1aeeb493670924489e85fab03219bc9
+      projectPath: Temp\UnityTempFile-e1aeeb493670924489e85fab03219bc9
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+      projectPath: Temp\UnityTempFile-e26a8e5cbec726048b7ed02d847a99c9
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+      projectPath: Temp\UnityTempFile-e8ec74812a14d2845bcca9d042cec209
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-ea18470387f593247849553d34c00e4a
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ea18470387f593247849553d34c00e4a
+      projectPath: Temp\UnityTempFile-ea18470387f593247849553d34c00e4a
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+      projectPath: Temp\UnityTempFile-ede45e4483b931a498fb79377c5c59ae
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-ee3b1d38f984e644b963d62f19521937
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ee3b1d38f984e644b963d62f19521937
+      projectPath: Temp\UnityTempFile-ee3b1d38f984e644b963d62f19521937
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+      projectPath: Temp\UnityTempFile-ef758164a99982b4f99f38f6542f79b6
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+      projectPath: Temp\UnityTempFile-efaa3e6125fddb941bd158ee2f5737e5
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+      projectPath: Temp\UnityTempFile-f01fe4d226e9dcb4f8a5e38b378574a6
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+      projectPath: Temp\UnityTempFile-f20d4ea25fce88a4793e34024e7114c9
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+      projectPath: Temp\UnityTempFile-f4b2494ad5ee8144caecbab2b536f069
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-f78d652187f5e54438c0cba557315441
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-f78d652187f5e54438c0cba557315441
+      projectPath: Temp\UnityTempFile-f78d652187f5e54438c0cba557315441
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+      projectPath: Temp\UnityTempFile-fb29a21225ec2c64daa2c8868d552f63
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-fb37c210fde755244a14b7681bc11c97
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-fb37c210fde755244a14b7681bc11c97
+      projectPath: Temp\UnityTempFile-fb37c210fde755244a14b7681bc11c97
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Catching Money\Temp\UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+      fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Temp\UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+      projectPath: Temp\UnityTempFile-ff83b6c7f9f577647a0c9fe184cd7b24
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    changedFilesText: 79 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-10-23T00:28:45.864+01:00
+      updatedTimeString: 2020-10-23T17:06:22.304+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-10-23T00:31:56.923+01:00
+      updatedTimeString: 2020-10-23T17:06:35.431+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-10-23T00:31:56.298+01:00
+      updatedTimeString: 2020-10-23T17:06:35.417+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -26016,7 +27153,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: dan
   currentRemoteUrl: https://github.com/Not-A-Hacking-Group/ArunBanks.git
-  statusAhead: 2
+  statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -26029,13 +27166,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-10-23T00:28:45.864+01:00
+    updatedTimeString: 2020-10-23T17:06:22.304+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-10-23T00:31:57.000+01:00
+    updatedTimeString: 2020-10-23T17:06:35.534+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-10-23T00:31:56.923+01:00
+    updatedTimeString: 2020-10-23T17:06:35.431+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -26055,8 +27192,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  appManagerProgressValue: 0.5
+  appManagerProgressMessage: Setting up git...
   connections: []
   primaryConnectionUsername: 
 --- !u!114 &15
@@ -26080,14 +27217,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 232
-    y: 73.6
-    width: 1020
-    height: 412
+    x: 237.6
+    y: 80.8
+    width: 1011
+    height: 403
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 4801468768446325967, guid: 754307031a40fe644a3c9ea9d5dc9ce0, type: 2}
+    - {fileID: 4668284642720080942, guid: ed7b384a372c1d8418a667ce6b775f04, type: 2}
+    - {fileID: -3923080865331136385, guid: ed7b384a372c1d8418a667ce6b775f04, type: 2}
+    - {fileID: -9075238755782135173, guid: ed7b384a372c1d8418a667ce6b775f04, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -26105,11 +27244,46 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 222
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 149
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 222
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 149
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 754307031a40fe644a3c9ea9d5dc9ce0,
+  m_AnimatorController: {fileID: 9100000, guid: ed7b384a372c1d8418a667ce6b775f04,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 4801468768446325967, guid: 754307031a40fe644a3c9ea9d5dc9ce0,
+  - m_Target: {fileID: 4668284642720080942, guid: ed7b384a372c1d8418a667ce6b775f04,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  - m_Target: {fileID: -3923080865331136385, guid: ed7b384a372c1d8418a667ce6b775f04,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -26144,14 +27318,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 418.4
-    y: 504
-    width: 834
-    height: 281
+    x: 395.2
+    y: 502.4
+    width: 853
+    height: 276
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -5874
+  m_LastSelectedObjectID: -72854
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -26189,10 +27363,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -404.4
-    m_HBaseRangeMax: 404.4
-    m_VBaseRangeMin: -154.40001
-    m_VBaseRangeMax: 154.40001
+    m_HBaseRangeMin: -505.5
+    m_HBaseRangeMax: 505.5
+    m_VBaseRangeMin: -193
+    m_VBaseRangeMax: 193
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -26212,23 +27386,23 @@ MonoBehaviour:
       y: 17
       width: 1011
       height: 386
-    m_Scale: {x: 1.2548007, y: 1.2548007}
-    m_Translation: {x: 505.49994, y: 192.99998}
+    m_Scale: {x: 1.2228274, y: 1.2228274}
+    m_Translation: {x: 505.5, y: 193}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -402.85278
-      y: -153.80928
-      width: 805.7056
-      height: 307.6186
+      x: -413.3862
+      y: -157.83093
+      width: 826.7724
+      height: 315.66187
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1263.75, y: 503.75}
+  m_LastWindowPixelSize: {x: 1011, y: 403}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -26254,8 +27428,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3.2
-    y: 82.4
+    x: 7.2000003
+    y: 80.8
     width: 230
     height: 403
   m_ViewDataDictionary: {fileID: 0}
@@ -26309,8 +27483,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 233.6
-    y: 82.4
+    x: 237.6
+    y: 80.8
     width: 1011
     height: 403
   m_ViewDataDictionary: {fileID: 0}
@@ -26324,9 +27498,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 345.45752, y: 55.64382, z: -345}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 345.45752, y: 55.64382, z: -345}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -26359,9 +27533,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 2600.32
     speed: 2
-    m_Value: 10
+    m_Value: 2600.32
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -26408,10 +27582,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 232
-    y: 73.6
-    width: 1020
-    height: 412
+    x: 237.6
+    y: 80.8
+    width: 1011
+    height: 403
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:
@@ -26434,8 +27608,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3.2
-    y: 504
+    x: 7.2000003
+    y: 502.4
     width: 388
     height: 276
   m_ViewDataDictionary: {fileID: 0}
@@ -26452,20 +27626,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins/GitHub/Editor
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets/Plugins/GitHub/Editor
+  - Assets/Scripts
   m_LastFoldersGridSize: 71
   m_LastProjectPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 822f0000
-    m_LastClickedID: 12162
-    m_ExpandedIDs: 00000000c02d0000f02d0000822f0000da30000000ca9a3b
+    m_SelectedIDs: 8e310000
+    m_LastClickedID: 12686
+    m_ExpandedIDs: 00000000de2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26493,7 +27667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c02d0000
+    m_ExpandedIDs: 00000000de2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26520,8 +27694,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000000000000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300000000000024330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26570,8 +27744,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 391.2
-    y: 504
+    x: 395.2
+    y: 502.4
     width: 853
     height: 276
   m_ViewDataDictionary: {fileID: 0}
