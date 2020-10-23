@@ -179,4 +179,4 @@ crashlytics-build.properties
 UnityLockfile
 
 #cache folder
-Catching Money/Library/gfu/cache
+Catching Money/Library/gfu/cache/*
