@@ -1,12 +1,162 @@
+<% if (!loggedIn) {%>
+
 <head>
-    <%- include("partials/include_me.ejs") %>
+    <%- include("partials/include_me.ejs") -%>
     <style>
+        form {
+          width: 30%;
+          margin: auto;
+        }
+        label, small, a {
+          color: white;
+          font-family: Helvetica;
+          text-align: left;
+        }
+        button {
+          width: 100%
+        }
         body {
+            min-height: 100vh;
+        }
+
+        .centre {
+            text-align: center;
+        }
+
+        .bg-colour {
             background-color: #ff5c6c;
+        }
+
+        .btn-primary {
+            background-color: #c7004c !important;
+            border: #c7004c !important;
+
+        }
+        .btn-primary:hover {
+            background-color: #97003a !important;
+        }
+        .btn-primary:active {
+            background-color: #97003a !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        .btn-primary:focus {
+            background-color: #97003a !important;
+            outline: none !important;
+            box-shadow: 0 0 0 0.2rem #ff3f89 !important;
         }
     </style>
 </head>
 
-<body>
-    <%- include("partials/header.ejs") %>
+<body class="bg-colour">
+
+<main style="text-align:center;">
+    <br>
+    <img src="/assets/logoTransparentFull.png" alt="logo" width="231px" height="116px">
+</main>
+<br><br>
+
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+
+<form action="/" method="post" id="homeRedirect" hidden="true">
+  <input type="hidden" value="" id="redirectID" name="userid">
+</form>
+
+<div style="width: 30vw; margin: auto;">
+    <div id="errorAlert" class="alert alert-danger" role="alert" hidden="true"></div>
+    <div class="form-group">
+      <label for="emailInput">Email address</label>
+      <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="passwordInput">Password</label>
+      <input type="password" class="form-control" id="passwordInput" placeholder="Password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off">
+    </div>
+    <button type="submit" class="btn btn-primary" id="loginButton">Login</button>
+    <small>Don't have an account? <a style="color:white; text-decoration: underline;" href="/register">Sign Up Now</a></small><br>
+    <small>Forgot your password? <a style="color:white; text-decoration: underline;" href="/resetpassword">Reset It</a></small>
+</div>
+
+
+  <script>
+      <%- include("partials/firebase_config.ejs") -%>
+      firebase.initializeApp(config);
+  
+      var loginBtn = document.getElementById("loginButton");
+      var email = document.getElementById("emailInput");
+      var password = document.getElementById("passwordInput");
+      
+      var redirectForm = document.getElementById("homeRedirect");
+      var redirectUserID = document.getElementById("redirectID");
+  
+      loginBtn.onclick = function() {
+          firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
+          firebase.auth().signInWithEmailAndPassword(email.value, password.value)
+              .then(function(user) {
+                  console.log(user);
+                  return user.user.getIdToken().then(function(id) {
+                      const csrfToken = getCookie("csrfToken");
+                      return postIdToSessionLogin("/sessionLogin", id, csrfToken);
+                  });
+              })
+              .then(function() {
+                  return firebase.auth().signOut();
+              })
+              .then(function() {
+                  window.location.assign("/");
+              })
+              .catch(function(err) {
+                  if (err.code === "auth/invalid-email") setErrorAlert("The email you entered is invalid");
+                  else if (err.code === "auth/user-not-found") setErrorAlert("We could not find an account associated with those credentials");
+                  else if (err.code === "auth/wrong-password") setErrorAlert("We could not find an account associated with those credentials");
+                  else console.error(err);
+              });
+      }
+  
+  function setErrorAlert(err)
+  {
+      var alert = document.getElementById("errorAlert");
+      alert.innerText = err;
+      alert.hidden = false;
+  }
+  
+  function getCookie(cookieName) {
+      var name = cookieName + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var x = decodedCookie.split(";");
+      for (var i = 0; i < x.length; i++) {
+          var y = x[i];
+          while (y.charAt(0) == " ") {
+              y = y.substring(1);
+          }
+          if (y.indexOf(name) == 0) return y.substring(name.length, y.length);
+      }
+      return "";
+  }
+  
+  function postIdToSessionLogin(url, id, csrfToken) {
+      return $.ajax({
+          type: 'POST',
+          url: url,
+          dataType: "json",
+          data: {idToken: id, csrfToken: csrfToken},
+          contentType: 'application/x-www-form-urlencoded',
+          xhrFields: {
+              withCredentials: true
+          },
+          crossDomain: true
+      });
+  };
+  </script>
+
+
+
+
 </body>
+
+<% } %>
+<% if (loggedIn) { %>
+    <%- include("home.ejs"); -%>
+<% } %>
+
