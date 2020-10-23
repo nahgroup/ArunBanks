@@ -1,5 +1,15 @@
 const express = require("express");
 const cookieParser = require("cookie-parser");
+require("firebase/auth");
+const fbadmin = require("firebase-admin");
+
+const fbServiceAccountKey = require("./config/firebase_service_account_key.json");
+
+// Firebase
+fbadmin.initializeApp({
+    credential: fbadmin.credential.cert(fbServiceAccountKey),
+    databaseURL: "https://arunbanks-1b06b.firebaseio.com",
+});
 
 var app = express();
 

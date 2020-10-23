@@ -180,3 +180,9 @@ UnityLockfile
 
 #cache folder
 Catching Money/Library/gfu/cache/*
+
+
+
+
+# CONFIG FOLDER
+config/
