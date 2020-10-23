@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-10-23T01:18:15.621+01:00
+  lastUpdatedAtString: 2020-10-23T01:20:16.918+01:00
   initializedAtString: 2020-10-23T00:35:24.854+01:00
   entries:
   - path: .gitignore
@@ -25,6 +25,12 @@ MonoBehaviour:
   - path: Catching Money\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Catching Money\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -43,6 +49,12 @@ MonoBehaviour:
   - path: Catching Money\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Catching Money\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\danje\Documents\Hackathon#\ArunBanks\Catching Money\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
