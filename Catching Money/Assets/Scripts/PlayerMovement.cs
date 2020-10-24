@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!(collision.gameObject.name.Contains("Coin") || collision.gameObject.name.Contains("Note")))
         {
-            InteractionHappening = true;
+            //InteractionHappening = true;
         }
     }
 

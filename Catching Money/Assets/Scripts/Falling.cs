@@ -13,7 +13,7 @@ public class Falling : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        movement.y = -1600;
+        movement.y = -100;
     }
 
     // Update is called once per frame
@@ -28,7 +28,10 @@ public class Falling : MonoBehaviour
         {
             GameObject.Find("Score").GetComponent<Text>().text = Convert.ToString(Convert.ToDouble(GameObject.Find("Score").GetComponent<Text>().text) + value);
         }
-        //GameObject.Find("Score").GetComponent<FallingManager>().OnScreen += -value;
-        Destroy(gameObject);
+        if (collision.gameObject.name == "Player" || collision.gameObject.name == "Money Collider")
+        {
+            GameObject.Find("Score").GetComponent<FallingManager>().OnScreen += -value;
+            Destroy(gameObject);
+        }
     }
 }
