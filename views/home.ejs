@@ -71,27 +71,45 @@
 
         <script>
 
-            var moveUpCSS = "animation-duration: 3s; animation-name: slidein;";
+            
 
-            var validReg = new RegExp("[0-9]+\.[0-9][0-9]")
+            var validReg = new RegExp("^[0-9]+\.[0-9][0-9]$");
+
+        
+            function depositMoney(amount) {
+                $.get( "/api/depositMoney?amount="+amount, function( data ) {
+                    updateBalance();
+                });
+                // RUN GAME
+                console.log("deposit");
+            }
+
+            function updateBalance() {
+                $.get( "/api/getInfoByUserId", function( data ) {
+                    console.log(data);
+                    $("#bal").text("£"+data.balance);
+                });
+            }
+
+
+
+            updateBalance();
+
+
 
             $("#addBtn").click(function() {
                 $("#balTab").slideUp();
             });
 
             $("#addStatedBalance").click(function() {
-                var input = $("#addBalInput").text();
+                var input = $("#addBalInput").val();
                 
-                $("#bal").text() = "£"+;
-                $("#balTab").slideDown();
+                if (validReg.test(input)) {
+                    $("#bal").text("£"+input);
+                    depositMoney(parseFloat(input));
+                    $("#balTab").slideDown();
+                }
             });
-
-
-
-
-            function updateBalance() {
-
-            }
 
         </script>
 
