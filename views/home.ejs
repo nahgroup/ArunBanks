@@ -4,9 +4,113 @@
         body {
             background-color: #ff5c6c;
         }
+
+        .tab {
+            width: 50vw;
+            height: 60vh;
+            margin: 20%;
+            overflow: hidden;
+        }
+
+        .centre {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+        .dot svg {
+            height: 5vw;
+            width: 5vw;
+            background-color: #ffffff;
+            border: 2px solid #5ddb44;
+            /* background-color: #6dff50; */
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
     </style>
 </head>
 
 <body>
     <%- include("partials/header.ejs") %>
+
+    <div class="tab centre">
+        <div id="internalTabContainer">
+            <div id="balTab" class="card centre" style="width: 100%; height: 60vh;">
+                <div class="card-body centre" style="width: 100%;">
+                <h5 class="card-title">Balance</h5>
+                <p id="bal" class="card-text centre" style="font-size: 10vw; text-align: center; width: 100%;">£0.00</p>
+                <span id="addBtn" class="dot"><svg width="3vw" height="3vw" viewBox="0 0 16 16" class="bi bi-plus" fill="#5ddb44" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                </svg></span>
+                </div>
+            </div>
+
+
+            <div id="addTab" class="card" style="width: 100%; height: 60vh;">
+                <div class="card-body centre" style="width: 100%;">
+                    <h5 class="card-title">How much?</h5>
+                    <div class="input-group mb-3 centre">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1">£</span>
+                        </div>
+                        <div><input id="addBalInput" type="text" class="form-control" placeholder="0.00" aria-label="DepositAmount" aria-describedby="basic-addon1"></div>
+                        <span id="addStatedBalance" class="dot centre"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="#5ddb44" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg></span>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script>
+
+            
+
+            var validReg = new RegExp("^[0-9]+\.[0-9][0-9]$");
+
+        
+            function depositMoney(amount) {
+                $.get( "/api/depositMoney?amount="+amount, function( data ) {
+                    updateBalance();
+                });
+                // RUN GAME
+                console.log("deposit");
+            }
+
+            function updateBalance() {
+                $.get( "/api/getInfoByUserId", function( data ) {
+                    console.log(data);
+                    $("#bal").text("£"+data.balance);
+                });
+            }
+
+
+
+            updateBalance();
+
+
+
+            $("#addBtn").click(function() {
+                $("#balTab").slideUp();
+            });
+
+            $("#addStatedBalance").click(function() {
+                var input = $("#addBalInput").val();
+                
+                if (validReg.test(input)) {
+                    $("#bal").text("£"+input);
+                    depositMoney(parseFloat(input));
+                    $("#balTab").slideDown();
+                }
+            });
+
+        </script>
+
 </body>

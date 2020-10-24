@@ -35,7 +35,7 @@ router.post("/sessionLogin", (req, res) => {
                 });
                 res.end(JSON.stringify({ status: "success" }));
             },
-            error => {
+            err => {
                 res.status(401).send("UNAUTHORISED");
             },
         );

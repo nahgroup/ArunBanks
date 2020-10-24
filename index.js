@@ -28,6 +28,8 @@ app.use(express.static("static"));
 // Routes
 app.use("/", require("./routes.js"));
 
+app.use("/api", require("./api_routes.js"));
+
 
 
 app.listen(process.env.PORT || 5000, () => {
