@@ -14,6 +14,7 @@ public class FallingManager : MonoBehaviour
     public double DepositAmount;
     private bool notStarted;
     private System.Single Frequencey;
+    private Color ColorOfComplete;
 
     //Coins
     public GameObject[] money;
@@ -26,6 +27,9 @@ public class FallingManager : MonoBehaviour
         RandInt = new System.Random();
         notStarted = true;
         Frequencey = 0.5f;
+        ColorOfComplete = Color.white;
+        ColorOfComplete.a = 0;
+        GameObject.Find("Complete").GetComponent<SpriteRenderer>().color = ColorOfComplete;
     }
 
     // Update is called once per frame
@@ -35,6 +39,11 @@ public class FallingManager : MonoBehaviour
         {
             InvokeRepeating("ChooseCoin", 2f, Frequencey);
             notStarted = false;
+        }
+        if (DepositAmount - Convert.ToDouble(gameObject.GetComponent<Text>().text) == 0)
+        {
+            ColorOfComplete.a = 1;
+            GameObject.Find("Complete").GetComponent<SpriteRenderer>().color = ColorOfComplete;
         }
     }
 
