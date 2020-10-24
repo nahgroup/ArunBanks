@@ -36,6 +36,8 @@
 <body>
     <%- include("partials/header.ejs") %>
 
+    <h1 id="welcomeMsg" style="margin: 3vw; color: white;"></h1>
+
     <div class="tab centre">
         <div id="internalTabContainer">
             <div id="balTab" class="card centre" style="width: 100%; height: 60vh;">
@@ -72,27 +74,28 @@
         <script>
 
             
-
+            
             var validReg = new RegExp("^[0-9]+\.[0-9][0-9]$");
-
-        
+            
+            
             function depositMoney(amount) {
-                $.get( "/api/depositMoney?amount="+amount, function( data ) {
+                $.get( "/api/depositMoney?amount="+amount, function(data) {
                     updateBalance();
                 });
                 // RUN GAME
                 console.log("deposit");
             }
-
+            
             function updateBalance() {
-                $.get( "/api/getInfoByUserId", function( data ) {
+                $.get( "/api/getInfoByUserId", function(data) {
                     console.log(data);
                     $("#bal").text("£"+data.balance);
+                    $("#welcomeMsg").text("Welcome, "+data.name);
                 });
             }
-
-
-
+            
+            
+            
             updateBalance();
 
 
