@@ -23,6 +23,9 @@ router.get("/moneyMonkeyGame", checkLoggedIn, (req, res) => {
     res.render("moneyMonkeyGame.ejs");
 });
 
+router.get("/stocksGame", checkLoggedIn, (req, res) => {
+    res.render("stocksGame.ejs");
+});
 
 
 
