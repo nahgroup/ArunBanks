@@ -4,6 +4,7 @@ const fbadmin = require("firebase-admin");
 const getInfoByUserId = require("./database_funcs/getInfoByUserId");
 const depositMoney = require("./database_funcs/depositMoney");
 const initNewUser = require("./database_funcs/initNewUser");
+const setInGameMoney = require("./database_funcs/setInGameMoney");
 
 var router = express.Router();
 
@@ -26,6 +27,12 @@ router.get("/initNewUser", (req, res) => {
     var advancedBool = req.query.advanced == "true";
     var name = req.query.name;
     initNewUser(userID, name, advancedBool, () => {
+        res.json({success: true});
+    });
+});
+
+router.get("/setInGameMoney", checkLoggedIn, (req, res) => {
+    setInGameMoney(req.loggedInUser.uid, req.query.amount, () => {
         res.json({success: true});
     });
 });

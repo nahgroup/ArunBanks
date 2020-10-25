@@ -1,0 +1,24 @@
+<body>
+    <script src="/stocksGame/TemplateData/UnityProgress.js"></script>
+    <script src="/stocksGame/Build/UnityLoader.js"></script>
+    <script>
+
+        function completeGame(balance) {
+            $.get( "/api/setInGameMoney?amount="+balance, function(data) {
+                    setTimeout(function() {window.location.href = "/";}, 5000);
+                });
+        }
+
+        function gameLoaded() {
+            unityInstance.SendMessage( 'saveButton', 'djMaths', window.location.search.substr(1) )
+        }
+
+
+      var unityInstance = UnityLoader.instantiate("unityContainer", "/stocksGame/Build/build.json", {onProgress: UnityProgress});
+      
+      
+      
+    </script>
+
+<div id="unityContainer" style="width: 100vw; height: 100vh; visibility: visible;"></div>
+</body>

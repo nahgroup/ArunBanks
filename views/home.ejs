@@ -76,6 +76,8 @@
             
             
             var validReg = new RegExp("^[0-9]+\.[0-9][0-9]$");
+
+            var userInfo;
             
             
             function depositMoney(amount) {
@@ -89,13 +91,17 @@
             function updateBalance() {
                 $.get( "/api/getInfoByUserId", function(data) {
                     console.log(data);
+                    userInfo = data;
                     $("#bal").text("£"+data.balance);
                     $("#welcomeMsg").text("Welcome, "+data.name);
                 });
             }
 
             function startGame(amount) {
-                setTimeout(function() {window.location.href = "/moneyMonkeyGame?"+amount;}, 1000);
+                setTimeout(function() {
+                    if (userInfo.advanced) window.location.href = "/stocksGame?"+userInfo.inGameMoney;
+                    else window.location.href = "/moneyMonkeyGame?"+amount;
+                }, 1000);
             }
             
             

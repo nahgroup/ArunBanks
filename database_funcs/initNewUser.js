@@ -8,7 +8,8 @@ module.exports = function(userID, name, advanced, callback) {
         userID,
         name,
         balance: 0,
-        advanced
+        advanced,
+        inGameMoney: 0
     });
 
 }
