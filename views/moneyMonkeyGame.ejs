@@ -1,6 +1,6 @@
 <body>
-    <script src="TemplateData/UnityProgress.js"></script>
-<script src="/Build/UnityLoader.js"></script>
+    <script src="/moneyMonkey/TemplateData/UnityProgress.js"></script>
+    <script src="/moneyMonkey/Build/UnityLoader.js"></script>
     <script>
 
         function completeGame() {
@@ -12,7 +12,7 @@
         }
 
 
-      var unityInstance = UnityLoader.instantiate("unityContainer", "/Build/build.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "/moneyMonkey/Build/build.json", {onProgress: UnityProgress});
       
       
       
