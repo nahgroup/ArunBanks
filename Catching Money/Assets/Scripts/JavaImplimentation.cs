@@ -9,9 +9,13 @@ public class JavaImplimentation : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void Complete();
 
+    [DllImport("__Internal")]
+    private static extern void Started();
+
     // Start is called before the first frame update
     void Start()
     {
+        Started();
     }
 
     // Update is called once per frame
