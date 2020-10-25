@@ -7,9 +7,11 @@ ScriptsOnlyBuild:
     - PlayerMovement
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
+    - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
     - GitHub.Unity.Window
@@ -27,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -546,4 +549,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/danje/Desktop/Build Settings
+  playerPath: C:/Users/danje/Desktop/Build Test
