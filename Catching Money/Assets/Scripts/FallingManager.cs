@@ -12,7 +12,7 @@ public class FallingManager : MonoBehaviour
     private System.Random RandInt;
     private int RandRes;
     public double DepositAmount;
-    private bool notStarted;
+    public bool notStarted;
     private System.Single Frequencey;
     private Color ColorOfComplete;
 
@@ -25,7 +25,7 @@ public class FallingManager : MonoBehaviour
         MinXValue = -1940;
         MaxXValue = 1925;
         RandInt = new System.Random();
-        notStarted = true;
+        notStarted = false;
         Frequencey = 0.5f;
         ColorOfComplete = Color.white;
         ColorOfComplete.a = 0;
