@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class JavaImplimentation : MonoBehaviour
 {
+    private bool ran;
+
     [DllImport("__Internal")]
     private static extern void Complete();
 
@@ -17,14 +19,16 @@ public class JavaImplimentation : MonoBehaviour
     void Start()
     {
         Started();
+        ran = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (gameObject.GetComponent<SpriteRenderer>().color.a == 1)
+        if (gameObject.GetComponent<SpriteRenderer>().color.a == 1 && !ran)
         {
             Complete();
+            ran = true;
         }
     }
 
