@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
 using System;
+using UnityEngine.UI;
 
 public class JavaImplimentation : MonoBehaviour
 {
@@ -25,7 +26,13 @@ public class JavaImplimentation : MonoBehaviour
 
     void GetDepositValue(string Deposit)
     {
+        Color temp;
         double Depo = double.Parse(Deposit);
         GameObject.Find("Score").GetComponent<FallingManager>().DepositAmount = Depo;
+        GameObject.Find("Score").GetComponent<FallingManager>().notStarted = true;
+        GameObject.Find("Score").GetComponent<Text>().text = "0";
+        temp = GameObject.Find("Complete").GetComponent<SpriteRenderer>().color;
+        temp.a = 0;
+        GameObject.Find("Complete").GetComponent<SpriteRenderer>().color = temp;
     }
 }
