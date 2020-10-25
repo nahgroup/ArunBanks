@@ -116,4 +116,15 @@
 
         </script>
 
+
+
+
+
+
+<script src="/Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "/Build/build.json", {onProgress: UnityProgress});
+      gameInstance.SendMessage( 'Complete', 'Java Implimentation', '5.86' )
+    </script>
+
 </body>
