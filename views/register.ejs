@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <style>
+        form {
+          width: 30%;
+          margin: auto;
+        }
+        label, small, a {
+          color: white;
+          font-family: Helvetica;
+          text-align: left;
+        }
+        button {
+          width: 100%
+        }
+        body {
+            min-height: 100vh;
+        }
+        /* html {
+            height: 100%;
+        } */
+        .centre {
+            text-align: center;
+        }
+
+        .bg-colour {
+            background-color: #ff5c6c;
+        }
+
+        .btn-primary {
+            background-color: #c7004c !important;
+            border: #c7004c !important;
+
+        }
+        .btn-primary:hover {
+            background-color: #97003a !important;
+        }
+        .btn-primary:active {
+            background-color: #97003a !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        .btn-primary:focus {
+            background-color: #97003a !important;
+            outline: none !important;
+            box-shadow: 0 0 0 0.2rem #ff3f89 !important;
+        }
+    </style>
+
+<header>
+    <%- include("partials/include_me.ejs") -%>
+</header>
+
+<body class="bg-colour">
+
+<main  style="text-align:center;">
+    <br>
+    <img src="/assets/logoTransparentFull.png" alt="logo" width="231px" height="116px">
+</main>
+<br><br>
+<div style="width: 30vw; margin: auto;">
+    <div id="errorAlert" class="alert alert-danger" role="alert" hidden="true"></div>
+    <div class="form-group">
+      <label for="emailInput">Email address</label>
+      <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="nameInput">Name</label>
+      <input type="Name" class="form-control" id="nameInput" aria-describedby="NameHelp" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+      <label for="passwordInput">Password</label>
+      <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+    </div>
+    <div class="form-group">
+      <label for="passwordInputConfirm">Confirm Password</label>
+      <input type="password" class="form-control" id="passwordInputConfirm" placeholder="Confirm Password">
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="advancedCheck">
+        <label class="form-check-label" for="exampleCheck1">I want advanced mode.</label>
+      </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="tcCheck" required="true">
+        <label class="form-check-label" for="exampleCheck1">I accept the Terms and Conditions</label>
+      </div>
+    <button id="registerBtn" type="submit" class="btn btn-primary">Register</button>
+    <small>Have an account? <a style="color:white; text-decoration: underline;" href="/">Log in Now</a></small>
+  </div>
+
+  <form hidden="true" action="/" method="post" id="homeRedirect">
+    <input type="hidden" value="" id="redirectID" name="userid">
+</form>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+  <script>
+      <%- include("partials/firebase_config.ejs") -%>
+  
+      firebase.initializeApp(config);
+      
+      var registerBtn = document.getElementById("registerBtn");
+      var email = document.getElementById("emailInput");
+      var password = document.getElementById("passwordInput");
+      var passwordConfirm = document.getElementById("passwordInputConfirm");
+      var nameInput = document.getElementById("nameInput");
+
+      var tcCheck = document.getElementById("tcCheck");
+      var advancedCheck = document.getElementById("advancedCheck");
+  
+      var redirectForm = document.getElementById("homeRedirect");
+      var redirectUserID = document.getElementById("redirectID");
+  
+      registerBtn.onclick = function() {
+        if (!tcCheck.checked)
+        {
+          setErrorAlert("You must accept the T&Cs");
+        }
+          if (password.value !== passwordConfirm.value)
+          {
+              setErrorAlert("The passwords must match");
+          }
+          else
+          {
+              firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
+              firebase.auth().createUserWithEmailAndPassword(email.value, password.value)
+                  .then(function(user) {
+                      console.log(user);
+                      $.get(`/api/initNewUser?userID=${firebase.auth().currentUser.uid}&advanced=${advancedCheck.checked}&name=${nameInput.value}`, function(data, status){});
+                      return user.user.getIdToken().then(function(idToken) {
+                          const csrfToken = getCookie('csrfToken');
+                          return postIdTokenToSessionLogin('/sessionLogin', idToken, csrfToken);
+                      });
+
+                  })
+                  .then(function() {
+                      return firebase.auth().signOut();
+                  })
+                  .then(function() {
+                      window.location.assign('/');
+                  })
+                  .catch(function(err) {
+                      if (err.code === "auth/weak-password") setErrorAlert("The password must be 6 characters long or more");
+                      else if (err.code === "auth/email-already-in-use") setErrorAlert("That email address is already in use");
+                      else console.error(err);
+                  });
+          }
+      }
+  
+  function setErrorAlert(err)
+  {
+      var alert = document.getElementById("errorAlert");
+      alert.innerText = err;
+      alert.hidden = false;
+  }
+  
+  
+  function getCookie(cookieName) {
+      var name = cookieName + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var x = decodedCookie.split(";");
+      for (var i = 0; i < x.length; i++) {
+          var y = x[i];
+          while (y.charAt(0) == " ") {
+              y = y.substring(1);
+          }
+          if (y.indexOf(name) == 0) return y.substring(name.length, y.length);
+      }
+      return "";
+  }
+  
+  function postIdTokenToSessionLogin(url, id, csrfToken) {
+      return $.ajax({
+          type: 'POST',
+          url: url,
+          dataType: "json",
+          data: {idToken: id, csrfToken: csrfToken},
+          contentType: 'application/x-www-form-urlencoded',
+          xhrFields: {
+              withCredentials: true
+          },
+          crossDomain: true
+      });
+  };
+  </script>
+
+
+</body>
+
+
+
+</html>

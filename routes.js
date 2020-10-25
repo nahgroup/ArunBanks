@@ -10,6 +10,11 @@ router.get("/", curiousLoggedIn, (req, res) => {
     else res.redirect("/home");
 });
 
+router.get("/register", curiousLoggedIn, (req, res) => {
+    if (req.loggedInUser) res.redirect("/");
+    else res.render("register.ejs");
+});
+
 router.get("/home", checkLoggedIn, (req, res) => {
     res.render("home.ejs")
 });
