@@ -3,6 +3,6 @@ mergeInto(LibraryManager.library, {
         completeGame();
     },
     Started: function() {
-        //insert What you need to do Will
+        gameLoaded();
     },
 });
