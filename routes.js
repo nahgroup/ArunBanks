@@ -14,6 +14,10 @@ router.get("/home", checkLoggedIn, (req, res) => {
     res.render("home.ejs")
 });
 
+router.get("/moneyMonkeyGame", checkLoggedIn, (req, res) => {
+    res.render("moneyMonkeyGame.ejs");
+});
+
 
 
 

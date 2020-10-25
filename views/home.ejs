@@ -38,7 +38,7 @@
 
     <h1 id="welcomeMsg" style="margin: 3vw; color: white;"></h1>
 
-    <div class="tab centre">
+    <div id="balContainer" class="tab centre">
         <div id="internalTabContainer">
             <div id="balTab" class="card centre" style="width: 100%; height: 60vh;">
                 <div class="card-body centre" style="width: 100%;">
@@ -81,8 +81,8 @@
             function depositMoney(amount) {
                 $.get( "/api/depositMoney?amount="+amount, function(data) {
                     updateBalance();
+                    startGame(amount);
                 });
-                // RUN GAME
                 console.log("deposit");
             }
             
@@ -92,6 +92,10 @@
                     $("#bal").text("£"+data.balance);
                     $("#welcomeMsg").text("Welcome, "+data.name);
                 });
+            }
+
+            function startGame(amount) {
+                setTimeout(function() {window.location.href = "/moneyMonkeyGame?"+amount;}, 1000);
             }
             
             
@@ -120,13 +124,6 @@
 
 
 
-<script src="TemplateData/UnityProgress.js"></script>
-<script src="/Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "/Build/build.json", {onProgress: UnityProgress});
-      unityInstance.SendMessage( 'Complete', 'Java Implimentation', '5.86' )
-    </script>
 
-<div id="unityContainer" style="width: 1000px; height: 400px"></div>
 
 </body>

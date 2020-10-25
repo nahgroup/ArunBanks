@@ -1,0 +1,18 @@
+<body>
+    <script src="TemplateData/UnityProgress.js"></script>
+<script src="/Build/UnityLoader.js"></script>
+    <script>
+
+        function gameCompleted() {
+            setTimeout(function() {window.location.href = "/";}, 5000);
+        }
+
+
+      var unityInstance = UnityLoader.instantiate("unityContainer", "/Build/build.json", {onProgress: UnityProgress});
+      
+      unityInstance.SendMessage( 'Complete', 'GetDepositValue', window.location.search )
+      
+    </script>
+
+<div id="unityContainer" style="width: 100vw; height: 100vh; visibility: visible;"></div>
+</body>
