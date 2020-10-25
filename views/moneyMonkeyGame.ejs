@@ -3,14 +3,18 @@
 <script src="/Build/UnityLoader.js"></script>
     <script>
 
-        function gameCompleted() {
+        function completeGame() {
             setTimeout(function() {window.location.href = "/";}, 5000);
+        }
+
+        function gameLoaded() {
+            unityInstance.SendMessage( 'Complete', 'GetDepositValue', window.location.search.substr(1) )
         }
 
 
       var unityInstance = UnityLoader.instantiate("unityContainer", "/Build/build.json", {onProgress: UnityProgress});
       
-      unityInstance.SendMessage( 'Complete', 'GetDepositValue', window.location.search )
+      
       
     </script>
 
