@@ -2,6 +2,7 @@
 
 <head>
     <%- include("partials/include_me.ejs") -%>
+    <!-- <meta charset="utf-8"> -->
     <style>
         form {
           width: 30%;
@@ -45,6 +46,76 @@
             outline: none !important;
             box-shadow: 0 0 0 0.2rem #ff3f89 !important;
         }
+/* ------------DAN MESSING EVERYTHING UP------------- */
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgb(61,220,151,0.6);
+  margin: 2% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24;
+  color: white;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.MonkeyImage {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#container {
+    margin: 0px auto;
+    width: 500px;
+    height: 375px;
+    /* border: 5px solid #c70049; */
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+#videoElement {
+    width: 500px;
+    height: 375px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 5px solid #c70049;
+}
+#mybtn {
+    visibility: hidden;
+}
+/* ------------DAN NO LONGER MESSING EVERYTHING UP------------- */
+
     </style>
 </head>
 
@@ -77,6 +148,28 @@
     <small>Don't have an account? <a style="color:white; text-decoration: underline;" href="/register">Sign Up Now</a></small><br>
     <small>Forgot your password? <a style="color:white; text-decoration: underline;" href="/resetpassword">Reset It</a></small>
 </div>
+
+<!-- --------DAN STUFF START HERE---------- -->
+<button id="myBtn">Open Modal</button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p><b>CYBER SECURITY WARNING</b></p>
+    <p>Shouldering is a dangerous technique that hackers can do in order to get your password!! Make sure to check over your shoulder or enable the webcam by clicking the button below</p>
+    <br>
+    <img class="MonkeyImage" src="/Monkey Character.png">
+    <br>
+    <button type="button" id="Webcam" class ="btn btn-primary">Open Webcam</button>
+</div>
+</div>
+
+<div id="container">
+    <video autoplay = "true" id = "videoElement">
+        </video>
+</div>
+<!-- --------DAN STUFF END HERE---------- -->
 
 
   <script>
@@ -153,6 +246,57 @@
   {
     
   };
+
+  //--------------DAN CAN'T DO JAVA SCRIPT----------------------
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+var wcbtn = document.getElementById("Webcam");
+var wc = document.getElementById("container");
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+wcbtn.onclick = function() {
+    wc.style.visibility="visible"
+    modal.style.display = "none";
+}
+ 
+//Video
+var video = document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+  navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+      video.srcObject = stream;
+    })
+    .catch(function (err0r) {
+      console.log("Something went wrong!");
+    });
+}
+
+
+  //----------------SAFE PAST THIS POINT------------------------
 
   </script>
 
