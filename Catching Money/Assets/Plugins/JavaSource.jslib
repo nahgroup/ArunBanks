@@ -1,9 +1,9 @@
-mergeInto(LibraryManager.library, {
-    Complete: function () {
-        window.alert("test");
-    },
+//mergeInto(LibraryManager.library, {
+//    Complete: function () {
+//        window.alert("test");
+//    },
 
-    TheInput: function () {
-        return(); //put the value in here
-    }
-});
+//    TheInput: function () {
+//        return(); put the value in here
+//    }
+//});

@@ -6,7 +6,7 @@ using System;
 
 public class JavaImplimentation : MonoBehaviour
 {
-    [DllImport("__Internal")]
+    /*[DllImport("__Internal")]
     private static extern void Complete();
 
     [DllImport("__Internal")]
@@ -25,5 +25,5 @@ public class JavaImplimentation : MonoBehaviour
         {
             Complete();
         }
-    }
+    }*/
 }
